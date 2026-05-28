@@ -1,0 +1,32 @@
+aid: getping
+name: GETPing
+description: "Trigger an email notification with a simple GET request"
+url: https://www.getping.info
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Development"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Development
+  - Public APIs
+apis:
+  - name: GETPing
+    description: "Trigger an email notification with a simple GET request"
+    humanURL: https://www.getping.info
+    baseURL: https://www.getping.info
+    tags:
+      - Development
+    properties:
+      - type: Documentation
+        url: https://www.getping.info
+common:
+  - type: Website
+    url: https://www.getping.info
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
